@@ -53,7 +53,7 @@ export default function Header() {
           <Link
             href={'/agency-owners'}
             className={
-              pathname === '/agency-oweners'
+              pathname === '/agency-owners'
                 ? 'underline underline-offset-4 scale-125'
                 : 'hover:underline underline-offset-4 hover:scale-125 transition-all duration-300 ease-in-out'
             }
